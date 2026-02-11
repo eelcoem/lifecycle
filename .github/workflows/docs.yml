@@ -31,8 +31,6 @@ on:
 jobs:
   build-docs:
     uses: eclipse-score/cicd-workflows/.github/workflows/docs.yml@main
-    environment:
-      name: github-pages
     permissions:
       contents: write
       pages: write
