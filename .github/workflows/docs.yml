@@ -29,6 +29,9 @@ on:
     types: [checks_requested]
 
 jobs:
+  unit-tests:
+    uses: ./.github/workflows/tests.yml
+    secrets: inherit
   build-docs:
     uses: eclipse-score/cicd-workflows/.github/workflows/docs.yml@main
     permissions:
