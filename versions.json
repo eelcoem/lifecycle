@@ -2,13 +2,5 @@
   {
     "version": "main",
     "url": "https://eelcoem.github.io/lifecycle/main/"
-  },
-  {
-    "version": "pr-1",
-    "url": "https://eelcoem.github.io/lifecycle/pr-1/"
-  },
-  {
-    "version": "pr-5",
-    "url": "https://eelcoem.github.io/lifecycle/pr-5/"
   }
 ]
