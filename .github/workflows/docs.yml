@@ -34,6 +34,7 @@ jobs:
     secrets: inherit
   build-docs:
     needs: unit-tests
+    if: ${{ always() }}
     uses: eclipse-score/cicd-workflows/.github/workflows/docs.yml@main
     permissions:
       contents: write
