@@ -68,7 +68,7 @@ class DisplayTestLogs(Directive):
         ws_root = Path(env.app.srcdir).parent
 
         result_nodes = []
-        for dirname in ["bazel-testlogs", "tests-result"]:
+        for dirname in ["bazel-testlogs", "tests-report"]:
             candidate = ws_root / dirname
             if not candidate.is_dir():
                 continue
