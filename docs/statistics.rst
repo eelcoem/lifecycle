@@ -114,3 +114,9 @@ Details About Testcases
    type == 'testcase' and derivation_technique == 'fuzz-testing'
    type == 'testcase' and derivation_technique == 'error-guessing'
    type == 'testcase' and derivation_technique == 'explorative-testing'
+
+
+Test Log Files
+--------------
+
+.. display-test-logs::
