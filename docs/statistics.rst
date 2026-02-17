@@ -59,7 +59,7 @@ In Detail
       .. needtable:: FAILED TESTS
          :filter: result == "failed"
          :tags: TEST
-         :columns: name as "testcase";result;fully_verifies;partially_verifies;test_type;derivation_technique;id as "link"
+         :columns: name as "testcase";result;fully_verifies;partially_verifies;test_type;derivation_technique;id as "link"; file as "logs"
 
    .. grid-item-card::
 

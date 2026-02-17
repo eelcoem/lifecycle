@@ -92,7 +92,7 @@ class DisplayTestLogs(Directive):
 
         if not result_nodes:
             para = nodes.paragraph(
-                text="No test.log files found in bazel-testlogs or tests-result."
+                text="No test.log files found in bazel-testlogs or tests-report."
             )
             result_nodes.append(para)
 
