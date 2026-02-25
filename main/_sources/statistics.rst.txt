@@ -1,4 +1,4 @@
-.. _statistics:
+.. _life_statistics:
 
 Component Requirements Statistics
 =================================
@@ -8,7 +8,7 @@ Overview
 
 .. needpie:: Requirements Status
    :labels: not valid, valid but not tested, valid and tested
-   :colors: red,yellow, green
+   :colors: red, yellow, green
 
    type == 'comp_req' and status == 'invalid'
    type == 'comp_req' and testlink == '' and (status == 'valid' or status == 'invalid')
@@ -59,7 +59,7 @@ In Detail
       .. needtable:: FAILED TESTS
          :filter: result == "failed"
          :tags: TEST
-         :columns: name as "testcase";result;fully_verifies;partially_verifies;test_type;derivation_technique;id as "link"; file as "logs"
+         :columns: name as "testcase";result;fully_verifies;partially_verifies;test_type;derivation_technique;id as "link"
 
    .. grid-item-card::
 
