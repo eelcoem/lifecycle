@@ -32,9 +32,7 @@ jobs:
       - name: Install dependencies
         uses: eclipse-score/apt-install@main
         with:
-          packages: |
-            lcov
-            fakechroot
+          packages: lcov fakechroot
           cache: false
              
 
